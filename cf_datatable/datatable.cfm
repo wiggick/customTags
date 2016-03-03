@@ -54,6 +54,7 @@
 	 ThisTag.hiddenTargets ="";
 	 ThisTag.noOrderTargets = "";
 	 ThisTag.noSearchTargets ="";
+	 ThisTag.outDefs = "";
 
 	 ThisTag.widths = {};
 	 ThisTag.types = {};
