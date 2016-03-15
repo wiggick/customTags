@@ -10,7 +10,8 @@
 	param attributes.searchable = true;
 	param attributes.renderFunction = "";
 
-	if (listLast(getBasetagList()) != "cf_datatable"){
+
+	if (! ListFindNoCase(getBasetagList(),"cf_datatable")){
     	throw(type="UnmatchedEndTagException",
     		  message="Context validation error for the cf_datatablecolumn tag", 
     		  detail="The tag must be nested inside a cf_datatble tag.");
