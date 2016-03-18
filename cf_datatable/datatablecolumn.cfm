@@ -14,7 +14,7 @@
 	if (! ListFindNoCase(getBasetagList(),"cf_datatable")){
     	throw(type="UnmatchedEndTagException",
     		  message="Context validation error for the cf_datatablecolumn tag", 
-    		  detail="The tag must be nested inside a cf_datatble tag.");
+    		  detail="The tag must be nested inside a cf_datatable tag.");
 	}
 </cfscript>
 <cfassociate basetag="cf_datatable">
