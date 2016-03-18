@@ -1,5 +1,5 @@
 <cfscript>
-	param attributes.styleSheets = '/js/datatables/bd.datatables.css';
+	param attributes.styleSheets = '';
 	param attributes.javaScripts = '';
 	param attributes.js = '';
 	param attributes.css = '';
